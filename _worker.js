@@ -50,7 +50,7 @@ let ChatID ='';
 let proxyhosts = [//本地代理域名池
 	//'ppfv2tl9veojd-maillazy.pages.dev',
 ];
-let proxyhostsURL = 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/proxyhosts';//在线代理域名池URL
+let proxyhostsURL = '';//在线代理域名池URL
 let EndPS = '';//节点名备注内容
 let 协议类型 = 'VLESS';
 let FileName = 'WorkerVless2sub';
