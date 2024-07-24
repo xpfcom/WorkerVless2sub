@@ -39,7 +39,8 @@ let link = '';
 let edgetunnel = 'ed';
 let RproxyIP = 'false';
 let proxyIPs = [//无法匹配到节点名就随机分配以下ProxyIP域名
-
+	'proxyip.multacom.fxxk.dedyn.io',
+	'proxyip.vultr.fxxk.dedyn.io',
 ];
 let CMproxyIPs = [
 	//'proxyip.aliyun.fxxk.dedyn.io:HK',//匹配节点名, 有HK就分配该ProxyIP域名
@@ -50,7 +51,7 @@ let ChatID ='';
 let proxyhosts = [//本地代理域名池
 	//'ppfv2tl9veojd-maillazy.pages.dev',
 ];
-let proxyhostsURL = '';//在线代理域名池URL
+let proxyhostsURL = 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/proxyhosts';//在线代理域名池URL
 let EndPS = '';//节点名备注内容
 let 协议类型 = 'VLESS';
 let FileName = 'WorkerVless2sub';
